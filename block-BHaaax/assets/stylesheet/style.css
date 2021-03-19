@@ -76,9 +76,7 @@ header, section, footer{
      
  }
  
- 
-
-header,footer{
+ header,footer{
     
     background-color:#07154c;
     
@@ -107,12 +105,13 @@ div{
 
 .imgSide{
     width: 440px;
-    height: 250px;
-    display: inline-block;
+    height: 300px;
+    float: inline-start;
     padding: 0.5px;
     
 }
 h1{
     font-weight: bolder;
+    margin-bottom: 60px;
     
 }
