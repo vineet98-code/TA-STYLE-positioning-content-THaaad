@@ -1,0 +1,61 @@
+
+.logo{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 450px;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 30px;
+    position: relative;
+    left: 450px;
+}
+
+body{
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+}
+
+header, article, footer{
+    margin: 1.5%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    
+}
+header,footer{
+    background-color: #223969;
+
+}
+article{
+    /* background-color:green; */
+    float: left;
+    width: 30.65%;
+
+}
+.clearfix::before, .clearfix::after{
+   content: "";
+   display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+.image-article{
+    width: 453px;
+    margin-bottom: 15px;
+    
+    
+    
+}
+
+.paraArticle{
+    text-align: left;
+    color: black;
+    text-transform: capitalize;
+}
