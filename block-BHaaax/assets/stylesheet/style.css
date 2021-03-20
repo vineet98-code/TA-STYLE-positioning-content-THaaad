@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: "open sans", sans-serif;
+    line-height: 1.5;
+    font-size: 24px;
+    color: #fff;
+    
+
+}
+header, section, footer{
+    padding: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 1.0%;
+}
+
+
+  section{
+     background-color: #30BA66;
+     padding: 100px;
+     display: inline-block;
+     width: 64%
+     
+ }
+ 
+ header,footer{
+    
+    background-color:#07154c;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+    margin-left: 20px;
+    text-transform:capitalize;
+}
+div{
+    display: inline-block;
+    border: 1px solid red;
+    margin: 1.6%
+}
+.logo{
+    height: 30px;
+    position: relative;
+    right: 430px;
+
+}
+
+
+.imgSide{
+    width: 440px;
+    height: 300px;
+    float: inline-start;
+    padding: 0.5px;
+    
+}
+h1{
+    font-weight: bolder;
+    margin-bottom: 60px;
+    
+}
