@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom style */
+
+
+
+ *,
+ *::before,
+ *::after{
+     box-sizing: border-box;
+ }
+
+body{
+    font-size: 24px;
+    line-height: 1.5;    
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 32px;
+}
+
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+ }
+
+ .clearfix::after{
+     clear:both;
+ }
+
+header,footer{
+    background-color: #222946;
+    height:72px;
+    line-height: 72px;
+}
+.logo{
+    float:left;
+}
+.logo img{
+    height:25px;
+    width:80px;
+    vertical-align: middle;
+}
+.nav{
+    float:right;
+}
+.nav a{
+    font-size: 24px;
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 32px;
+
+}
+/* article */
+
+.section-1{
+    padding: 60px 0;
+    background-color: #e9ecfc;
+}
+.article-img{
+    width:100%;
+    object-fit: cover;
+}
+.col-1{
+    float: left;
+    width:50%;
+    
+}
+p{
+    font-size:20px;
+    line-height: 1.7;
+}
+
+/* Row - 2 */
+.col-2{
+    float:left;
+    width:32.9%;
+    box-sizing: content-box;
+    margin-left: 3px;
+}
+.section-2{
+    padding: 60px 0;
+    background-color: yellow;
+}
+
+.article-img-2{
+    width:100%;
+    object-fit: cover;
+    height:300px;
+}
+
+/* Row - 3 */
+
+.section-3{
+    padding: 60px 0;
+    background-color:blue
+}
+.article-img-3{
+    width:100%;
+    object-fit: cover;
+    height:300px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+}
+small{
+    color:white;
+    margin: 0 auto;
+
+}
