@@ -127,8 +127,9 @@ p{
     width:32.9%;
     box-sizing: content-box;
     margin-left: 3px;
+    margin-bottom: -7px;
 }
-.section-2{
+.gallery-section{
     padding: 60px 0;
     background-color: yellow;
 }
@@ -138,17 +139,10 @@ p{
     object-fit: cover;
     height:300px;
 }
-
-/* Row - 3 */
-
-.section-3{
-    padding: 60px 0;
-    background-color:blue
-}
-.article-img-3{
-    width:100%;
-    object-fit: cover;
-    height:300px;
+h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 /* Footer */
