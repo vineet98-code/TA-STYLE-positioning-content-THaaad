@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/stylesheets/style.css">
     <script src="https://kit.fontawesome.com/c6f9fe3736.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <title>Positioning Layout</title>
 </head>
 <body>
@@ -17,13 +19,19 @@
                <a class="a" href="#">generic</a>
                <a class="a" href="#">elemets</a>
             </nav>
-            <section class="header-section">
-                <h1>welcome to theory</h1>
-                <h4>A free resposive html5 website by TEMPLATED</h4>
-            </section>
+            
         </div>
    </header> 
    <main>
+       <section class="header-section">
+           <div class="container clearfix">
+            <h1 class="header-heading">welcome to theory</h1>
+            <p class="header-text">
+                A free resposive HTML5 website by template by 
+                <strong>template</strong>
+            </p>
+           </div>
+        </section>
        <section class="article-section">
            <div class="container clearfix">
               <article class="col">
@@ -119,13 +127,23 @@
         <hr>
         <div class="container clearfix">
             <footer>
-                <small>&copyUnited. design: TEMPLATED. images:upsplash</small>
+                <small>&copy;United. design: TEMPLATED. images:upsplash</small>
                 <nav class="social-media">
-                 <i class="fab fa-facebook-f"></i>
-                 <i class="fab fa-twitter-t"></i>
-                 <i class="fab fa-linkedin-ln"></i>
-                 <i class="fab fa-pinterest-p"></i>
-                 <i class="fab fa-vimeo-v"></i>
+                    <a href="">
+                       <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter-t"></i>
+                     </a>
+                     <a href="">
+                        <i class="fab fa-linkedin"></i>
+                     </a>
+                     <a href="">
+                        <i class="fab pinterest"></i>
+                     </a>
+                     <a href="">
+                        <i class="fab fa-vimeo"></i>
+                     </a>
                 </nav>
                 
             </footer>
