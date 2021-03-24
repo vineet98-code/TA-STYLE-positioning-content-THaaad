@@ -236,17 +236,23 @@ h4{
 
 
 hr{
-    width:75%;
+    width:74%;
     border-style: line;
 }
 
 /* footer */
 footer{
-    background-color: #ffffff;
-    padding: 40px;
+    padding: 40px 0;
+    background-color:whitesmoke;
+    /* border-top: 1px solid #777777; */
 }
 
-.social-media{
-    float:right;
+.footer nav{
+  float:right;
+}
 
+.footer a{
+    color:#5385c1;
+    text-decoration: none;
+    margin-left: 24px;
 }
